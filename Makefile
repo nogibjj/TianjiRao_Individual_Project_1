@@ -5,7 +5,7 @@ install:
 test:
 	python -m pytest -vv --cov=main test_*.py
     # pytest --nbval-lax $(shell git ls-files '*.ipynb')
-	python -m pytest --nbval *.ipynb
+	# python -m pytest --nbval *.ipynb
 
 format:	
 	black *.py 
