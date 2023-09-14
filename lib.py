@@ -11,10 +11,9 @@ def pd_desc(df):
 def pd_visual(df): 
     df.plot(kind="hist")
     plt.xticks(rotation = 90)
-    plt.xlabel('Index')
-    plt.ylabel(df.name)
+    plt.ylabel('Frequency')
+    plt.xlabel(df.name)
     plt.show()
-    
     
 # For Polars
 # describe
