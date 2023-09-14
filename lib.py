@@ -1,5 +1,5 @@
-import pandas as pd
-import polars as pl
+# import pandas as pd
+# import polars as pl
 import matplotlib.pyplot as plt
 
 # For Pandas
@@ -23,6 +23,3 @@ def polars_desc(df):
 # visualization: histgram
 def polars_visual(df):
     plt.hist(df["Model Year"])
-
-
-
