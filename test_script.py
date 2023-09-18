@@ -1,7 +1,8 @@
 from script import summary_desc, desc_pd
+import pandas as pd
 
 def test_summary_desc():
-    df = df.read_csv('Electric_Vehicle_Population_Data.csv')
+    df = pd.read_csv('Electric_Vehicle_Population_Data.csv')
     
     # mean
     assert desc_pd(df).loc["mean", "Electric Range"] == 70.49573804284242
