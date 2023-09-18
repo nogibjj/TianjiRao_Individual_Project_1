@@ -7,6 +7,19 @@ import matplotlib.pyplot as plt
 def pd_desc(df):
     return df.describe()
 
+# mean
+def mean(df):
+    return df.mean()
+
+# median
+def median(df):
+    return df.median()
+
+# std
+def std(df):
+    return df.std()
+
+
 # visualization: bar plot
 def pd_visual(df): 
     df.plot(kind="hist")
