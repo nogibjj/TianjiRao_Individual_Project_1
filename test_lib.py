@@ -6,21 +6,26 @@ from lib import pd_desc, pd_visual
 import pandas as pd
 
 def test_desc_df():
-    df = pd.read_csv("Electric_Vehicle_Population_Data.csv")
+    data = { '1': [1,2,3],
+             '2': [3,4,5],
+             '3': [6,7,8]
+            }
+    df = pd.DataFrame(data)
     # mean
-    assert pd_desc(df).loc["mean", "Electric Range"] == 70.49573804284242
+    assert pd_desc(df).loc["mean", "1"] == 2.0
     # median
-    assert pd_desc(df).loc["50%", "Model Year"] == 2021.0
+    assert pd_desc(df).loc["50%", "2"] == 4.0
     # standard deviation
-    assert pd_desc(df).loc["std", "Electric Range"] == 97.12873497790751
+    assert pd_desc(df).loc["std", "3"] == 1.0
 
 
 def test_bar_plot():
-    df = pd.read_csv("Electric_Vehicle_Population_Data.csv")
-    # Here we can focus on the visualization of Electric Range using a histgram
-    # Since the data set is too large to run in codespace, 
-    # here we only use the first 500 observation as an example
-    pd_visual(df["Electric Range"][:500])
+    data = { '1': [1,2,3],
+             '2': [3,4,5],
+             '3': [6,7,8]
+            }
+    df = pd.DataFrame(data)
+    pd_visual(df["1"])
     
 if __name__ == "__main__":
     test_bar_plot()
