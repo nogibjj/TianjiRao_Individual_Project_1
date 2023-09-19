@@ -28,11 +28,11 @@ def pd_visual(df):
     plt.xlabel(df.name)
     plt.show()
     
-# For Polars
-# describe
-def polars_desc(df):
-    return df.describe()
+# # For Polars
+# # describe
+# def polars_desc(df):
+#     return df.describe()
 
-# visualization: histgram
-def polars_visual(df):
-    plt.hist(df["Model Year"])
+# # visualization: histgram
+# def polars_visual(df):
+#     plt.hist(df["Model Year"])

@@ -1,4 +1,4 @@
-from script import summary_desc, desc_pd
+from main import summary_desc, desc_pd
 import pandas as pd
 
 def test_summary_desc():
