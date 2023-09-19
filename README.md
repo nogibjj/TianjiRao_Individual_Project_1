@@ -56,14 +56,15 @@ Here we can use
 ## Check format and test errors
 1. Format `make format`
 2. Lint `make lint`     
+<img width="855" alt="Screenshot 2023-09-19 at 2 49 27 PM" src="https://github.com/nogibjj/TianjiRao_Mini_Project_3/assets/104114843/45ace5e3-ece4-4415-81e8-eb62c359ba0d">
 
-
-3. Test `make test`     
-- Test `*.ipynb`
-<img width="1253" alt="Screenshot 2023-09-19 at 2 34 36 PM" src="https://github.com/nogibjj/TianjiRao_Mini_Project_3/assets/104114843/f3741877-6010-4ffc-84ac-570b02321762">
-
+3. Test `make test`
 - Test `*.py`
-<img width="1256" alt="Screenshot 2023-09-19 at 2 34 24 PM" src="https://github.com/nogibjj/TianjiRao_Mini_Project_3/assets/104114843/3c235ce0-fc8a-4e9b-bd38-a2f8936e8d15">
+<img width="849" alt="Screenshot 2023-09-19 at 2 49 47 PM" src="https://github.com/nogibjj/TianjiRao_Mini_Project_3/assets/104114843/6a4d40c4-5284-48d1-ae1d-467b47d2ff4d">
+
+- Test `*.ipynb`
+<img width="840" alt="Screenshot 2023-09-19 at 2 49 55 PM" src="https://github.com/nogibjj/TianjiRao_Mini_Project_3/assets/104114843/21a32244-290c-4093-9bbc-1dd9264430ff">
+
 
 ## Reference
 https://pandas.pydata.org/    
