@@ -1,4 +1,5 @@
 # Individual Project 1
+[![CI](https://github.com/nogibjj/TianjiRao_Individual_Project_1/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/TianjiRao_Individual_Project_1/actions/workflows/cicd.yml)
 IDS-706 Individaul Project 1 by Tianji Rao
 
 ## **Report**
