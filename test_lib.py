@@ -11,6 +11,7 @@ def test_desc_df():
              '2': [3,4,5],
              '3': [6,7,8]
             }
+    
     df = pd.DataFrame(data)
     # mean
     assert pd_desc(df).loc["mean", "1"] == 2.0
