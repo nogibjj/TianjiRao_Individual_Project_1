@@ -36,3 +36,8 @@ def test_pd_visual():
     df = pd.DataFrame(data)
     
     pd_visual(df['1'])
+    
+    
+if __name__ == "__main__":
+    test_desc_df()
+    test_pd_visual()

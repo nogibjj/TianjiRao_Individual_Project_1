@@ -18,3 +18,8 @@ def test_visual():
     
 def test_save_to_md():
     save_to_md()
+    
+if __name__ == "__main__":
+    test_summary_desc()
+    test_visual()
+    test_save_to_md()
