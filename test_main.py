@@ -1,4 +1,4 @@
-from main import summary_desc, visual
+from main import summary_desc, visual, save_to_md
 # import pandas as pd
 
 def test_summary_desc():
@@ -16,3 +16,5 @@ def test_summary_desc():
 def test_visual():
     visual()
     
+def test_save_to_md():
+    save_to_md()
