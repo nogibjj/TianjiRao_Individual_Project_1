@@ -21,12 +21,15 @@ def std(df):
 
 
 # # visualization: bar plot
-def pd_visual(df): 
+def pd_visual(df, render=True): 
     df.plot(kind="hist")
     plt.xticks(rotation = 90)
     plt.ylabel('Frequency')
     plt.xlabel(df.name)
-    plt.show()
+    if render:
+        plt.show()
+    else:
+        plt.savefig('histgram.png')
     
 # # For Polars
 # # describe

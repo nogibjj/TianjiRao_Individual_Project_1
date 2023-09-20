@@ -9,3 +9,13 @@ def summary_desc():
 def visual():
     df = pd.read_csv('Electric_Vehicle_Population_Data.csv')
     pd_visual(df["Model Year"])
+    
+def save_to_md():
+    df = pd.read_csv('Electric_Vehicle_Population_Data.csv')
+    tab1 = pd_desc(df)
+    pd_visual(df['Model Year'], render=False)
+    with open("summary.md", "w", encoding="utf-8") as file:
+        file.write("Describe:\n")
+        file.write(tab1)
+        file.write("\n\n")  # Add a new line
+        file.write("![Histgram](histgram.png)\n")
