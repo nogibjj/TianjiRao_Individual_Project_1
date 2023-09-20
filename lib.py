@@ -20,13 +20,13 @@ def std(df):
     return df.std()
 
 
-# visualization: bar plot
-def pd_visual(df): 
-    df.plot(kind="hist")
-    plt.xticks(rotation = 90)
-    plt.ylabel('Frequency')
-    plt.xlabel(df.name)
-    plt.show()
+# # visualization: bar plot
+# def pd_visual(df): 
+#     df.plot(kind="hist")
+#     plt.xticks(rotation = 90)
+#     plt.ylabel('Frequency')
+#     plt.xlabel(df.name)
+#     plt.show()
     
 # # For Polars
 # # describe
