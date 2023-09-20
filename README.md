@@ -37,12 +37,12 @@ I used `pd.read_csv()` to read this dataset and save as a `pd.DataFrame`.
 - `mean(df)`    
 - `median(df)`  
 - `std(df)`
+- `pd_visual(df)`
 
 ### Functions in `main.py`
 Here we also design two functions that further package common functions in lib.py.
-- `summary_desc(df)`
-- `desc_pd(df)`
-
+- `summary_desc()`
+- `visual()`
 
 ## Applications
 ### Testing Functions
