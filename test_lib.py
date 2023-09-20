@@ -2,7 +2,7 @@
 Test goes here
 """
 
-from lib import pd_desc, mean, median, std
+from lib import pd_desc, mean, median, std, pd_visual
 
 import pandas as pd
 
@@ -24,3 +24,15 @@ def test_desc_df():
     # standard deviation
     assert pd_desc(df).loc["std", "3"] == 1.0
     assert std(df['3']) == 1.0
+    
+    
+
+def test_pd_visual():
+    data = { '1': [1,2,3],
+             '2': [3,4,5],
+             '3': [6,7,8]
+            }
+    
+    df = pd.DataFrame(data)
+    
+    pd_visual(df['1'])

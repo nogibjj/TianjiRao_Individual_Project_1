@@ -1,4 +1,4 @@
-from main import summary_desc
+from main import summary_desc, visual
 # import pandas as pd
 
 def test_summary_desc():
@@ -13,4 +13,6 @@ def test_summary_desc():
     # standard deviation
     assert round(result.loc["std", "Electric Range"], 6) == 97.128735
 
+def test_visual():
+    visual()
     
