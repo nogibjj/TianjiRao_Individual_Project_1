@@ -7,6 +7,7 @@ def test_summary_desc():
     # mean
     assert desc_pd(df).loc["mean", "Electric Range"] == 70.49573804284242
     assert summary_desc(df["Electric Range"])[0] == 70.49573804284242
+    
     # median
     assert desc_pd(df).loc["50%", "Model Year"] == 2021.0
     assert summary_desc(df["Model Year"])[1] == 2021.0
