@@ -1,5 +1,9 @@
 # Individual Project 1
-[![CI](https://github.com/nogibjj/TianjiRao_Individual_Project_1/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/TianjiRao_Individual_Project_1/actions/workflows/cicd.yml)
+[![Format](https://github.com/nogibjj/TianjiRao_Individual_Project_1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/TianjiRao_Individual_Project_1/actions/workflows/format.yml)
+[![Install](https://github.com/nogibjj/TianjiRao_Individual_Project_1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/TianjiRao_Individual_Project_1/actions/workflows/install.yml)
+[![Test](https://github.com/nogibjj/TianjiRao_Individual_Project_1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/TianjiRao_Individual_Project_1/actions/workflows/test.yml)
+[![Lint](https://github.com/nogibjj/TianjiRao_Individual_Project_1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/TianjiRao_Individual_Project_1/actions/workflows/lint.yml)
+
 IDS-706 Individaul Project 1 by Tianji Rao
 
 ## Video
