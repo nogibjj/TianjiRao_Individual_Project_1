@@ -54,7 +54,7 @@ Here we also design two functions that further package common functions in lib.p
 Checking mean, median, and standard deviation
 
 ### Testing Jupyter Notebook
-Here we can use 
+Here we can use nvbal.
 
 ## Preparation
 1. Setting up Codespaces
