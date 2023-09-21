@@ -46,12 +46,16 @@ I used `pd.read_csv()` to read this dataset and save as a `pd.DataFrame`.
 ### Functions in `main.py`
 Here we also design two functions that further package common functions in lib.py.
 - `summary_desc()`
-- `visual()`
+- `visual()`    
+- `save_to_md()`
 
 ## Applications
 ### Testing Functions
 - `test_summary_desc()` 
 Checking mean, median, and standard deviation
+
+- `test_visual()` 
+- `test_save_to_md()`
 
 ### Testing Jupyter Notebook
 Here we can use nvbal.
