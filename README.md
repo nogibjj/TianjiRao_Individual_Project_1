@@ -7,7 +7,7 @@
 IDS-706 Individaul Project 1 by Tianji Rao
 
 ## Video
-https://www.youtube.com/watch?v=lyWqBmtPrHk
+https://www.youtube.com/watch?v=4ApFFAgxYoQ
 
 ## **Report**
 
