@@ -63,7 +63,7 @@ Here we can use nvbal.
 ## Check format and test errors
 1. Format `make format`
 2. Lint `make lint`     
-<img width="855" alt="Screenshot 2023-09-19 at 2 49 27 PM" src="https://github.com/nogibjj/TianjiRao_Mini_Project_3/assets/104114843/45ace5e3-ece4-4415-81e8-eb62c359ba0d">
+![Screenshot 2023-09-21 at 10 15 14 AM](https://github.com/nogibjj/TianjiRao_Individual_Project_1/assets/104114843/bbea3140-98de-4be9-a207-9acbd6ebd6bd)
 
 3. Test `make test`
 - Test `*.py`
